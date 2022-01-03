@@ -1,0 +1,396 @@
+* {
+
+	margin: 0px;
+	padding: 0px;
+	font-family: tahoma;
+
+}
+
+
+.facebook-header
+
+{
+
+	background: linear-gradient(#4C68A1,#3B5998);
+	overflow: hidden;
+	padding-top: 10px;
+	padding-bottom: 5px;
+	border-bottom: 1px solid #133783;
+
+}
+
+.logo img{
+
+
+	margin-top: 20px;
+
+
+}
+
+.mid{
+
+	width: 80%;
+	margin: auto;
+
+}
+
+.logo{
+
+	width: 60%;
+	float: left;
+
+}
+
+.login-area{
+
+	width: 40%;
+	float: left;
+
+}
+
+.login1 input,.login2 input{
+
+	display: block;
+	font-size: 12px;
+	border: 1px solid lightgray;
+	padding: 2.5px;
+	margin-top: 3px;
+
+}
+
+
+.login1, .login2, .login3{
+
+	float: left;
+	margin-right: 13px;
+
+}
+
+.login1 label{
+
+	color: white;
+	font-size: 12px;
+	cursor: pointer;
+	
+
+}
+
+.login2 label{
+
+	color: white;
+	font-size: 12px;
+	cursor: pointer;
+}
+
+.login2 a{
+
+	text-decoration: none;
+	font-family: tahoma;
+	font-size: 12px;
+	color: #9cb4d8;
+
+}
+
+.login2 a:hover{
+
+	text-decoration: underline;
+
+}
+
+.login3 input{
+
+	color: white;
+	font-size: 11px;
+	font-family: tahoma;
+	font-weight: bold;
+	background-color: #4267b2;
+	border:1px solid #29487d ;
+	padding: 3px 5px;
+	margin-top: 22px;
+	cursor: pointer;
+
+}
+
+.login3 input:hover{
+
+	background-color: #365899;
+
+}
+
+.fb-body{
+
+	background: linear-gradient(#FBFCFD,#D3D8E8);
+	overflow: hidden;
+
+}
+
+.body-left{
+
+	width: 55%;
+	float: left;
+
+}
+
+.body-left h2{
+
+	color:#0e385f;
+	font-family:tahoma;
+	font-size:18px;
+	margin-top: 40px;
+	margin-bottom: 20px;
+	width: 80%;
+
+
+}
+
+.body-right{
+
+	width: 45%;
+	float: left;
+}
+
+.body-right h1{
+
+	font-family: tahoma;
+	font-size: 36px;
+	color: #333;
+	margin-top: 8px;
+	margin-bottom:10px;
+
+}
+
+
+.body-right p{
+
+	color: #1d2129;
+	font-size: 19px;
+	margin-bottom: 15px;
+	margin-top: 8px;
+
+}
+
+.reg-input input{
+
+	width: 100%;
+	box-sizing: border-box;
+	font-size: 15px;
+	padding: 5px 10px;
+	border: 1px solid #dbc7d8;
+	margin-bottom: 8px;
+
+}
+
+.reg-input input:nth-child(1){
+
+	width: 49%;
+
+}
+
+.reg-input input:nth-child(2){
+
+	width: 49%;
+
+}
+
+.bithday{
+
+	overflow: hidden;
+
+}
+
+.birthday h2{
+
+	color: #1d2129;
+	font-size: 18px;
+	font-weight: normal;
+	margin-top: 10px;
+	margin-bottom: 6px;
+
+}
+
+.birthday select{
+
+	padding: 5px;
+	border: 1px solid #dbc7d8;
+	float: left;
+}
+
+
+.birthday a{
+
+	text-decoration: none;
+	font-size: 11px;
+	color: #365899;
+	margin-left:10px;
+	display: inline-block;
+	width: 150px;
+
+
+}
+
+.birthday a:hover {
+
+	text-decoration: underline;
+
+}
+
+.gender{
+
+	float: left;
+	margin-top: 15px;
+
+}
+
+.gender span{
+
+	display: block;
+	margin-top: 10px;
+	margin-bottom: 0px;
+
+}
+
+.gender p{
+
+	margin-top: 0px;
+	font-size: 11px;
+
+}
+
+.gender label{
+
+	font-size: 18px;
+	color: #1d2129;
+	margin-right: 10px;
+	vertical-align: top;
+
+}
+
+.gender a{
+
+	text-decoration: none;
+
+}
+
+.gender a:hover{
+
+	text-decoration: underline;
+}
+
+.button p{
+
+	font-size:13px; 
+	color: #666;
+	font-weight: bold;
+
+}
+
+.button p a {
+
+	text-decoration: none;
+	color: #365899;
+	
+
+}
+
+.button p a:hover {
+
+	text-decoration:underline;
+
+}
+
+.button input{
+
+	padding: 7px 20px;
+	font-size: 19px;
+	font-weight:bold;
+	background: linear-gradient(#67ae55,#578843);
+	color: white;
+	box-shadow: inset 0px 1px 1px #a4e388;
+	border-color: #3b6e22 #3b6e22 #2c5115;
+	border-style: solid;
+	border-width: 1px;
+	border-radius: 5px;
+	cursor: pointer;
+	margin: 10px 0px;
+
+}
+
+.facebook-footer{
+
+	background-color: white;
+	overflow: hidden;
+
+}
+
+.footer-top {
+
+	border-bottom: 1px solid #dddfe2;
+
+}
+
+.footer-top ul{
+
+	list-style: none;
+	
+	
+
+}
+
+.footer-top ul li{
+
+	display: inline-block;
+
+}
+
+
+.footer-top ul li a{
+
+	font-size: 12px;
+	text-decoration: none;
+	color: #365899;
+	padding: 10px 5px;
+	display: inline-blockl;
+
+}
+
+
+.footer-top ul li a:hover{
+
+	text-decoration: underline;
+
+
+}
+
+.footer-middle ul{
+
+	list-style: none;
+	margin-top: 5px;
+
+}
+
+.footer-middle ul li{
+
+	display: inline-block;
+	width: 8.5%;
+
+}
+
+.footer-middle ul li a{
+
+	font-size: 12px;
+	color: #365899;
+	padding: 5px 3px;
+	display: block;
+	text-decoration: none;
+
+
+}
+
+.footer-bottom p{
+
+	 color: #737373;
+	 font-size: 11px;
+	 padding: 20px 0px;
+	 margin-left: 5px;
+
+}
